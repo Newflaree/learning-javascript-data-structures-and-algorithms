@@ -18,6 +18,7 @@ num *= 3;
 num /= 2;
 num %= 3;
 
+console.log( 'num:', num );
 console.log( 'num == 1 :', ( num == 1 ) );  // { 3 }
 console.log( 'num === 1 :', ( num === 1 ) );
 console.log( 'num != 1 :', ( num != 1 ) );
@@ -123,3 +124,13 @@ var myObj = {
 
 delete myObj.age;
 console.log( myObj );  // Outputs Object { name: 'John' } 
+
+/*
+Resumen
+
+- Es mejor usar operadores de asignación en lugar de operadores aritméticos.
+
+- typeof nos sirve para conocer el tipo de dato al que pertenece una variable.
+
+- Se pueden eliminar elementos de un objeto utilizando delete obj.property
+*/
