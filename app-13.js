@@ -74,4 +74,11 @@ como Java o C. Sin embargo, esto solo se introdujo en JS a través de ES6.
 /*
 Resumen
 
+- Si definimos una variable con let, no podemos definir una variable utilizando var que posea
+  el mismo nombre literal
+
+- Las variables con let tienen un alcance a nivel de bloque, por ejemplo, si ya existia una 
+  let variable, puedo refinir una variable con el mismo nombre dentro de una instrucción if 
+  y no tendría ningún problema ya que esta varible sólo existe dentro del bloque if.
+  Ni antes, ni después.
 */ 

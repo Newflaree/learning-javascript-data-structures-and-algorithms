@@ -40,6 +40,17 @@ mismo ámbito (línea {1}). Discutiremos el alcance de las variables let y en el
 
 - El código anterior se puede probar y ejecutar en la URL https://goo.gl/he0udZ
 */
+"use strict";
+
+// EcmaScript 6: let is the new var
+var framework = 'Angular';
+var framework = 'React';
+
+console.log(framework);
+
+let language = 'JavaScript!'; //let language = 'Ruby!'; //throws error
+
+console.log(language);
 
 /*
 Resumen
