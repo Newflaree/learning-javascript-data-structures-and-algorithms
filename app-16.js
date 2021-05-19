@@ -38,5 +38,5 @@ Resumen
   function
 
 - Si la función tiene una declaración única, podemos escribir la función en una sola línea 
-  utilizando la versión corta de la de función de flecha ( a, b ) => a + b;
+  utilizando la versión corta de la de función de flecha () => a + b;
 */ 

@@ -41,4 +41,3 @@ var daysOfWeek = [
 Si queremos saber que hay muchos elementos en la matriz (su tamaño), podemos usar la propiedad 
 length. El siguiente código dará una salida de 7:
 */
-console.log( daysOfWeek.length );
