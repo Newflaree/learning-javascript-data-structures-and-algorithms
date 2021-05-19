@@ -18,10 +18,7 @@ console.log( sum.apply( undefined, params ) );
 El operador de propagación (...) también se puede usar como un parámetro de descanso en 
 funciones para reemplazar argumentos. Considere el siguiente ejemplo:
 */
-function restParameterFunction ( x, y , ...a ) {
-  return ( x + y ) * a.length;
-}
-
+const restParameterFunction = ( x, y , ...a ) => ( x + y ) * a.length;
 console.log( restParameterFunction( 1, 2, 'hello', true, 7 ) );  // outputs 9
 
 // El código anterior es el mismo que el siguiente:
@@ -31,3 +28,12 @@ function restParameterFunction2 ( x, y ) {
 }
 
 console.log( restParameterFunction2( 1, 2, 'hello', true, 7 ) );  // outputs 9
+
+
+/*
+Resumen
+
+- con el operador spread ( ... ) podemos barrer todo el contenido de una arreglo
+
+- También se puede usar como parámetro de descanso en una función para reemplazar argumentos
+*/ 

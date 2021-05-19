@@ -37,3 +37,8 @@ let book = new Book2( 'Shakishis', '123', 'isbn' );
 console.log( book.title );  // outputs the book title
 book.title = 'New Shaki';  // update the value of the book title
 console.log( book.title );  // outputs the book title
+
+/*
+Resumen
+
+*/ 

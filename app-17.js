@@ -31,5 +31,11 @@ Con ES6, podemos guardar algunas líneas de código utilizando la funcionalidad 
 de parámetros predeterminados.
 */
 
+/*
+Resumen
+
+- En ES6, podemos pasar un parámetro por defecto en la definición de la función,
+  por ejemplo: ( a = 2, b = 4 ) => a + b; 
+*/ 
 
 

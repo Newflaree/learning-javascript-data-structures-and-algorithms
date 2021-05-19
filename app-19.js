@@ -63,3 +63,10 @@ var hello2 = {
 };
 
 console.log( hello2.printHello() );
+
+/*
+Resumen
+
+- La desestructuración de matrices también se puede realizar para intercambiar valores a la vez 
+  sin la necesidad de crear variables temporales
+*/ 
